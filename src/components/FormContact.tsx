@@ -21,7 +21,7 @@ function FormContact({ onAdd }: { onAdd: (contact: ContactProps["contact"]) => v
       return;
     }
     onAdd(contact);
-    setContact({ name: "", firstName: "", email: "", phone: "" }); // Réinitialisation du formulaire
+    setContact({ name: "", firstName: "", email: "", phone: "" });  
   };
 
   return (
