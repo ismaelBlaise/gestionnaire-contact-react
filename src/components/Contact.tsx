@@ -1,11 +1,4 @@
-interface ContactProps {
-  contact: {
-    name: string;
-    firstName:string;
-    email: string;
-    phone: string;
-  };
-}
+import ContactProps from "../props/ContactProps";
 
 function Contact({ contact }: ContactProps) {
   return (
